@@ -1,0 +1,58 @@
+@tailwind base;
+
+.button-form{
+    background-color: rgb(37 99 235) !important; 
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    [type=button], [type=reset], [type=submit], button {
+        @apply bg-blue-600;
+    }
+    button,.button,input[type="button"],input[type="reset"],input[type="submit"]{
+        @apply bg-blue-600;
+    }
+}
+
+.txt{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+.axu{
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+@media (max-width: 1024px) {
+    .axu{
+        padding: 25px;
+        display: block;
+        width: min-content;
+    }
+}
+/* 
+#slide {
+    position: absolute;
+    top: -100px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% { top: 0; }
+}
+
+@keyframes slide {
+    100% { top: 0; }
+} */

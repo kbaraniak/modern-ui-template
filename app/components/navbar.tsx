@@ -13,7 +13,6 @@ export default function Navigation() {
                     <div className="flex-auto">
                         <a href="/">
                             <span className="txt">Modern UI</span>
-                            {/* <Image src="img/logo.png" width="160px" height="auto" alt="Modern UI" /> */}
                             <img src={logo} className="rounded-md" width="160px"></img>
                         </a>
                     </div>

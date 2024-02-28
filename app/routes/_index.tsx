@@ -8,8 +8,8 @@ import CTA from "~/components/home/cta";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Modern UI Template" },
+    { name: "description", content: "modern-ui-template" },
   ];
 };
 

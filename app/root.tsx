@@ -1,6 +1,6 @@
 import stylesheet from "~/main.css";
 
-import type { LinksFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -9,6 +9,13 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Modern UI Template" },
+    { name: "description", content: "modern-ui-template" },
+  ];
+};
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },

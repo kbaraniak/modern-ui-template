@@ -6,8 +6,8 @@ import MapBox from "~/components/contact/map";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Modern UI Template" },
+    { name: "description", content: "modern-ui-template" },
   ];
 };
 

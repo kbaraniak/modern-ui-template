@@ -47,20 +47,3 @@ h1, h2, h3, h4, h5, p{
         width: min-content;
     }
 }
-/* 
-#slide {
-    position: absolute;
-    top: -100px;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 1s;
-    animation: slide 0.5s forwards;
-    animation-delay: 1s;
-}
-
-@-webkit-keyframes slide {
-    100% { top: 0; }
-}
-
-@keyframes slide {
-    100% { top: 0; }
-} */

@@ -14,6 +14,9 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 ## Deployment
 
+Deploy own page with Vercel:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kbaraniak/modern-ui-template)
+
 First, build your app for production:
 
 ```sh

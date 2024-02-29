@@ -5,7 +5,6 @@ export default {
   corePlugins: {
     preflight: false,
   },
-  darkMode: ['body'],
   theme: {
     extend: {
       keyframes: {

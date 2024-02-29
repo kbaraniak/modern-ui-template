@@ -8,7 +8,7 @@ export default function Navigation() {
     return (
         <>
             <nav
-                className="flex p-5 lg:px-8 items-center animate-fade-down animate-once dark:bg-red">
+                className="flex p-5 lg:px-8 items-center animate-fade-down animate-once">
                 <div className="flex items-center">
                     <div className="flex-auto">
                         <a href="/">

@@ -1,7 +1,7 @@
 export default function Advantages() {
     return (
         <section className="bg-white" id="advantages">
-            <div className="hero min-h-[85vh] bg-base-200">
+            <div className="hero min-h-[85vh]">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://images.pexels.com/photos/20130305/pexels-photo-20130305/free-photo-of-natura-krzew-ogrod-lisc.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" className="min-w-72 rounded-lg shadow-2xl" />
                     <div className="mx-4 max-md:text-center">

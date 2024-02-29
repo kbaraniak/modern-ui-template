@@ -1,7 +1,7 @@
 export default function Defence() {
     return (
         <section className="bg-white" id="defence">
-            <div className="hero min-h-[70vh] bg-base-200">
+            <div className="hero min-h-[70vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src="https://images.pexels.com/photos/10875880/pexels-photo-10875880.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" className="rounded-lg shadow-2xl" />
                     <div className="mx-4 max-md:text-center">

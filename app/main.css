@@ -16,6 +16,14 @@
     }
 }
 
+header, footer{
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: black;
+}
+
 .txt{
     position: absolute;
     width: 1px;

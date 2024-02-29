@@ -7,7 +7,7 @@ export default function Advantages() {
                     <div className="mx-4 max-md:text-center">
                         <h1 className="text-5xl font-bold">We create quickly</h1>
                         <p className="py-6">Despite the quick creation, our products will be accurate</p>
-                        <button className="btn btn-primary bg-cyan-700 border-cyan-700 mx-auto !block lg:mx-0 lg:unset">Get Started</button>
+                        <button className="btn btn-primary bg-cyan-700 border-cyan-700 text-white mx-auto !block lg:mx-0 lg:unset">Get Started</button>
                     </div>
                 </div>
             </div>

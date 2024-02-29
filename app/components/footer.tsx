@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer>
 		<div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-			<div className="pt-8 mt-8 flex items-center justify-between border-t">
+			<div className="pt-8 mt-8 flex items-center justify-between border-t max-md:flex-col">
 				<div className="flex md:order-2">
 					<a href="https://github.com/kbaraniak/modern-ui-template" className="mx-2 text-gray-400 hover:text-gray-500">
 						<span className="txt">Github</span>
